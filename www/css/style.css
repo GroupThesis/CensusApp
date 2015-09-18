@@ -1,0 +1,38 @@
+/* Empty. Add your own CSS if you like */
+a {
+	text-decoration: none;
+}
+.mao {
+	background-color: green;
+	float: left;
+	margin-left: -5px;
+	padding: 30px;
+}
+.na {
+	background-color: green;
+	float: left;
+	margin-left: -5px;
+	padding: 50px;
+
+}
+.cya {
+	background-color: #FF9933;
+	font-style: italic;
+	float: left;
+	margin-left: -5px;
+	padding: 20px;
+}
+.hehe {
+	background-color: #FF9933;
+	font-style: italic;
+	float: left;
+	margin-left: -5px;
+	padding: 10px;
+}
+.mi {
+	background-color: #FF9933;
+	float: left;
+	margin-left: -5px;
+	padding: 20px;
+}
+
