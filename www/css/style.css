@@ -35,4 +35,21 @@ a {
 	margin-left: -5px;
 	padding: 20px;
 }
+.c {
+	background-color: #FF9933;
+	font-size: 25px;
+	text-align: center;
+	float: top;
+	margin-top: 10px;
+}
+.section {
+	background-color: #FFEAFF;
+	display: block;
+	height: 300px;
+	width: 100%;
+	float: top;
+	margin-top: 25px;
+
+}
+
 

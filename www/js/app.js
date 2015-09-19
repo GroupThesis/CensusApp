@@ -40,6 +40,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
+  .state('app.logins', {
+    url: '/logins',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/logins.html'
+      }
+    }
+  })
 
   .state('app.rentals', {
     url: '/rentals',
