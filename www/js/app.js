@@ -32,11 +32,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     controller: 'AppCtrl'
   })
 
-  .state('app.blog', {
-    url: '/blog',
+  .state('app.home', {
+    url: '/home',
     views: {
       'menuContent': {
-        templateUrl: 'templates/blog.html'
+        templateUrl: 'templates/Home.html'
       }
     }
   })
@@ -58,20 +58,20 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
-  .state('app.sanmig', {
-    url: '/sanmig',
+  .state('app.map', {
+    url: '/map',
     views: {
       'menuContent': {
-        templateUrl: 'templates/sanmig.html'
+        templateUrl: 'templates/map.html'
       }
     }
   })
 
-  .state('app.announcements', {
-      url: '/announcements',
+  .state('app.about', {
+      url: '/about',
       views: {
         'menuContent': {
-          templateUrl: 'templates/announcements.html'
+          templateUrl: 'templates/about.html'
         }
       }
     })
