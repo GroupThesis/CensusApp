@@ -52,5 +52,28 @@ angular.module('starter.controllers', [])
   ];
 })
 
-.controller('PlaylistCtrl', function($scope, $stateParams) {
+.controller('SurveyController', function($scope, $stateParams) {
+
+  $scope.showPage = function (id) {
+    if(!id) {
+      for(x = 1 ; x <= 7  ; x++) {
+        if(x === 1){
+          $('#page' + x).show();
+        } else {
+          $('#page' + x).hide();
+        }
+      }
+    } else {
+      for(x = 1 ; x <= 7  ; x++) {
+        if(x === id){
+          $('#page' + x).slideDown(1000);
+        } else {
+          $('#page' + x).hide();
+        }
+      }
+    }
+  }
+
+  $scope.showPage();
+
 });

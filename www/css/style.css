@@ -3,7 +3,7 @@ a {
 	text-decoration: none;
 }
 .mao {
-	background-color: lightcyan;
+	background-color: #E6005C;
 	float: left;
 	margin-left: -5px;
 	padding: 30px;
@@ -16,27 +16,28 @@ a {
 
 }
 .cya {
-	background-color: lightcyan;
+	background-color: #E6005C;
+	text-align: justify;
 	font-style: italic;
 	float: left;
 	margin-left: -5px;
 	padding: 20px;
 }
 .hehe {
-	background-color: lightcyan;
+	background-color: #E6005C;
 	font-style: italic;
 	float: left;
 	margin-left: -5px;
 	padding: 10px;
 }
 .mi {
-	background-color: lightcyan;
+	background-color: #E6005C;
 	float: left;
 	margin-left: -5px;
 	padding: 20px;
 }
 .c {
-	background-color: lightcyan;
+	background-color: #E6005C;
 	font-size: 25px;
 	text-align: center;
 	float: top;
@@ -52,12 +53,51 @@ a {
 
 }
 .aim {
-	background-color: skyblue;
+	background-color: #E6005C;
 }
 .title {
 	color: white;
 }
 .orayt {
-	color: skyblue;
+	color: #E6005C;
 }
+.mae {
+	background-color: #E6005C;
+	text-align: center;
+	
+}
+.lou {
+	color: dodgerblue;
+	font-family: lucida console;
+	font-size: 28px;
+}
+.bblove {
+	font-size: 10px;
+}
+.kaya {
+	background-color: #E6005C;
+	float: left;
+	margin-left: -5px;
+	padding: 10px;
+}
+.lagi {
+	background-color: #E6005C;
+	float: left;
+	margin-left: -5px;
+	padding: 10px;
+}
+.sige {
+	background-color: #E6005C;
+	float: left;
+	margin-left: -5px;
+	padding: 10px;
+}
+.household {
+	background-color: #E6005C;
+	float: left;
+	margin-left: -5px;
+	padding: 10px;
+}
+
+
 

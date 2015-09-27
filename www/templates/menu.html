@@ -1,8 +1,8 @@
-<ion-side-menus enable-menu-with-back-views="false">
+<ion-side-menus enable-menu-with-back-views="true">
   <ion-side-menu-content>
     <ion-nav-bar class="bar-stable">
-      <ion-nav-back-button>
-      </ion-nav-back-button>
+      <!--<ion-nav-back-button>
+      </ion-nav-back-button>-->
 
       <ion-nav-buttons side="left">
         <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
@@ -31,18 +31,30 @@
           </ion-content> -->
    <ion-content>
       <ion-list>
-        <ion-item menu-close href="#/app/logins">
-        <i class="ion-ios-checkmark-outline"></i>
-        Login
-        </ion-item>
         <ion-item menu-close href="#/app/home">
-        <i class="icon ion-ios-home"></i>
+        <i class="ion-ios-checkmark-outline"></i>
         Home
         </ion-item>
-        <ion-item menu-close href="#/app/about">
-        <i class="ion-ios-book"></i>
-        About
-      </ion-list>
-    </ion-content> -->
-  </ion-side-menu>
-</ion-side-menus>
+        <ion-item menu-close href="#/map">
+        <i class="ion-map"></i>
+        Census Map
+        </ion-item>
+        <ion-item menu-close href="#/data">
+        <i class="ion-stats-bars"></i>
+        Census Data
+        </ion-item>
+         <ion-item menu-close href="#/cps">
+        <i class="icon ion-android-document"></i>
+        City Population Status
+        </ion-item>
+         <ion-item menu-close href="#/survey">
+        <i class="icon ion-compose"></i>
+        Begin Individual Survey
+        </ion-item>
+         <ion-item menu-close href="#/household">
+        <i class="icon ion-compose"></i>
+        Household Survey
+        </ion-item>
+        </ion-list>
+      </ion-content>
+  </ion-side-menus>

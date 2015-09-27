@@ -29,7 +29,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     url: '/app',
     abstract: true,
     templateUrl: 'templates/menu.html',
-    controller: 'AppCtrl'
   })
 
   .state('app.home', {
@@ -40,6 +39,12 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
+
+    .state('survey', {
+    url: '/survey',
+    templateUrl: 'templates/survey.html',
+    controller: 'SurveyController'
+  })
   .state('app.logins', {
     url: '/logins',
     views: {
@@ -48,23 +53,35 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
+   .state('household', {
+    url: '/household',
+    templateUrl: 'templates/household.html',
+  })
 
-  .state('app.rentals', {
-    url: '/rentals',
+
+    .state('data', {
+    url: '/data',
+    templateUrl: 'templates/data.html',
+  })
+
+
+    .state('map', {
+    url: '/map',
+    templateUrl: 'templates/map.html',
+  })
+
+
+  .state('app.welcome', {
+    url: '/welcome',
     views: {
       'menuContent': {
-        templateUrl: 'templates/rentals.html'
+        templateUrl: 'templates/welcome.html'
       }
     }
   })
-
-  .state('app.map', {
-    url: '/map',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/map.html'
-      }
-    }
+   .state('cps', {
+    url: '/cps',
+    templateUrl: 'templates/cps.html',
   })
 
   .state('app.about', {
@@ -75,25 +92,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
-    .state('app.playlists', {
-      url: '/playlists',
-      views: {
-        'menuContent': {
-          templateUrl: 'templates/playlists.html',
-          controller: 'PlaylistsCtrl'
-        }
-      }
-    })
-
-  .state('app.single', {
-    url: '/playlists/:playlistId',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/playlist.html',
-        controller: 'PlaylistCtrl'
-      }
-    }
-  });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/rentals'); //playlists
+  $urlRouterProvider.otherwise('/app/home'); //playlists
 });
